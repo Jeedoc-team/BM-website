@@ -9,8 +9,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="text-content">
-              <h4>contact us</h4>
-              <h2>let’s get in touch</h2>
+              <h4>Nous contacter</h4>
+              <!-- <h2>let’s get in touch</h2> -->
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Our Location on Maps</h2>
+              <h2>Notre localisation sur la carte</h2>
             </div>
           </div>
           <div class="col-md-8">
@@ -34,12 +34,13 @@
 	4. Copy only URL and paste it within the src="" field below
 -->
             <div id="map">
-              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <!-- <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+              <iframe src="https://www.google.com/maps/place/Ets+Bleu+Marine/@10.8672105,0.200283,17z/data=!4m14!1m7!3m6!1s0x11d54511effb9dad:0x4e8d3640d57c3a68!2sEts+Bleu+Marine!8m2!3d10.8672105!4d0.2024717!16s%2Fg%2F11t6kvnqrv!3m5!1s0x11d54511effb9dad:0x4e8d3640d57c3a68!8m2!3d10.8672105!4d0.2024717!16s%2Fg%2F11t6kvnqrv" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-md-4">
             <div class="left-content">
-              <h4>About our office</h4>
+              <h4>A propos de notre boutique</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
               <ul class="social-icons">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -59,7 +60,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Send us a Message</h2>
+              <h2>Contacter</h2>
             </div>
           </div>
           <div class="col-md-8">
@@ -68,34 +69,34 @@
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Nom" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" placeholder="E-Mail Address" required="">
+                      <input name="email" type="text" class="form-control" id="email" placeholder="Adresse E-mail" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Objet" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Votre Message" required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                      <button type="submit" id="form-submit" class="filled-button">Envoyer le message</button>
                     </fieldset>
                   </div>
                 </div>
               </form>
             </div>
           </div>
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <ul class="accordion">
               <li>
                   <a>Accordion Title One</a>
@@ -104,7 +105,7 @@
                   </div>
               </li>
               <li>
-                  <a>Second Title Here</a>
+                  <a>Le second titre ici</a>
                   <div class="content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
                   </div>
@@ -122,7 +123,7 @@
                   </div>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -132,33 +133,33 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Our Happy Customers</h2>
+              <h2>Nos Clients Satisfaits</h2>
             </div>
           </div>
           <div class="col-md-12">
             <div class="owl-clients owl-carousel">
               <div class="client-item">
-                <img src="../assets/images/client-01.png" alt="1">
+                <img src="{% static 'assets/images/client-01.png' %}" alt="1">
               </div>
               
               <div class="client-item">
-                <img src="assets/images/client-01.png" alt="2">
+                <img src="{% static 'assets/images/client-01.png' %}" alt="2">
               </div>
               
               <div class="client-item">
-                <img src="assets/images/client-01.png" alt="3">
+                <img src="{% static 'assets/images/client-01.png' %}" alt="3">
               </div>
               
               <div class="client-item">
-                <img src="assets/images/client-01.png" alt="4">
+                <img src="{% static 'assets/images/client-01.png' %}" alt="4">
               </div>
               
               <div class="client-item">
-                <img src="assets/images/client-01.png" alt="5">
+                <img src="{% static 'assets/images/client-01.png' %}" alt="5">
               </div>
               
               <div class="client-item">
-                <img src="assets/images/client-01.png" alt="6">
+                <img src="{% static 'assets/images/client-01.png' %}" alt="6">
               </div>
             </div>
           </div>
