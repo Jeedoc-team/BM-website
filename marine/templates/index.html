@@ -46,7 +46,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Bleu <em>Marine</em></h2></a>
+          <a class="navbar-brand" href="{% url 'home' %}"><h2>Bleu <em>Marine</em></h2></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -92,8 +92,13 @@ https://templatemo.com/tm-546-sixteen-clothing
       <div class="owl-banner owl-carousel">
         <div class="banner-item-01">
           <div class="text-content">
+<<<<<<< HEAD
             <h4>Meilleurs Offres</h4>
             <h2>Bleu Marine</h2>
+=======
+            <h4>Achetez vos matériaux de constructions, d'electricités et divers avec</h4>
+            <h2>la société bleu marine</h2>
+>>>>>>> dfa8384b09b264d545a2be51f361539dd755d631
           </div>
         </div>
         <div class="banner-item-02">
@@ -134,7 +139,61 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
     </div>
 
+<<<<<<< HEAD
     
+=======
+    <div class="best-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Leader de la région des savanes</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="left-content">
+              <h4>Nos produits sont </h4>
+              <!-- <p><a rel="nofollow" href="" target="_parent">This template</a> is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow" href="https://templatemo.com/contact">Contact us</a> for more info.</p> -->
+              <ul class="featured-list">
+                <li><a href="#">D'une qualité supérieur</a></li>
+                <li><a href="#">Très moins chèrs</a></li>
+                <li><a href="#">Disponible 6j/7 et 24h/24</a></li>
+                <li><a href="#">Restituable en cas de non satisfaction</a></li>
+              </ul>
+              <!-- <a href="about.html" class="filled-button">Read More</a> -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <img src="{% static 'assets/images/5.jpeg' %}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <div class="row">
+                <div class="col-md-8">
+                  <h4>Votre Satisfaction Fais Notre Réputation</h4>
+                  <p>Faites un tour dans nos locaux et faites vous plaisir.</p>
+                </div>
+                <div class="col-md-4">
+                  <a href="{% url 'contact' %}" class="filled-button">Nous contacter</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+>>>>>>> dfa8384b09b264d545a2be51f361539dd755d631
     {% endblock %}
     <footer>
       <div class="container">

@@ -10,9 +10,11 @@ def home(request):
 
 
 def products(request):
-    produits = Product.objects.all() 
-    context = {"produits":produits}
-    return render(request, "products.html", context)
+    all_products = Product.objects.all() 
+    categorie_elec = Product.objects.all().filter(categorie="Eléctricité")
+    categorie_plomb = Product.objects.all().filter(categorie="Plomberie")
+    categorie_mat = Product.objects.all().filter(categorie="Matériels et divers")
+    return render(request, "products.html", locals())
 
 
 def contact_us(request):

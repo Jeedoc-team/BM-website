@@ -23,17 +23,77 @@
             <div class="filters">
               <ul>
                   <li class="active" data-filter="*">Tous les produits</li>
-                  <!-- <li data-filter=".des">Caracteristiques</li>
-                  <li data-filter=".dev">Vente rapide</li>
-                  <li data-filter=".gra">Derniere minute</li> -->
+                  <li data-filter=".des">Electricité</li>
+                  <li data-filter=".dev">Plomberie</li>
+                  <li data-filter=".gra">Matériels et divers</li>
               </ul>
             </div>
           </div>
           <div class="col-md-12">
             <div class="filters-content">
                 <div class="row grid">
-                  {% for product in produits %}
+                  {% for product in all_products %}
+                    <div class="col-lg-4 col-md-4 all">
+                      <div class="product-item">
+                        <a href="#"><img src="{{product.image.url}}" alt=""></a>
+                        <div class="down-content">
+                          <a href="#"><h4>{{product.name}}</h4></a>
+                          <!-- <h6>$18.25</h6>
+                          <p></p> -->
+                          <!-- <ul class="stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                          </ul> -->
+                          <!-- <span>Commentaires/Avis (12)</span> -->
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  {% for product in categorie_elec %}
                     <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <a href="#"><img src="{{product.image.url}}" alt=""></a>
+                        <div class="down-content">
+                          <a href="#"><h4>{{product.name}}</h4></a>
+                          <!-- <h6>$18.25</h6>
+                          <p></p> -->
+                          <!-- <ul class="stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                          </ul> -->
+                          <!-- <span>Commentaires/Avis (12)</span> -->
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  {% for product in categorie_plomb %}
+                    <div class="col-lg-4 col-md-4 all dev">
+                      <div class="product-item">
+                        <a href="#"><img src="{{product.image.url}}" alt=""></a>
+                        <div class="down-content">
+                          <a href="#"><h4>{{product.name}}</h4></a>
+                          <!-- <h6>$18.25</h6>
+                          <p></p> -->
+                          <!-- <ul class="stars">
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                          </ul> -->
+                          <!-- <span>Commentaires/Avis (12)</span> -->
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  {% for product in categorie_mat %}
+                    <div class="col-lg-4 col-md-4 all gra">
                       <div class="product-item">
                         <a href="#"><img src="{{product.image.url}}" alt=""></a>
                         <div class="down-content">

@@ -89,6 +89,7 @@ a.filled-button:hover {
 }
 
 .products-heading {
+<<<<<<< HEAD
 	background-image: url(../images/bg14.jpg);
 }
 
@@ -98,6 +99,17 @@ a.filled-button:hover {
 
 .contact-heading {
 	background-image: url(../images/bg15.jpg);
+=======
+	background-image: url(../images/6.jpeg);
+}
+
+.about-heading {
+	background-image: url(../images/7g.jpeg);
+}
+
+.contact-heading {
+	background-image: url(../images/10.jpeg);
+>>>>>>> dfa8384b09b264d545a2be51f361539dd755d631
 }
 
 .page-heading {
@@ -322,7 +334,11 @@ header .navbar {
 
 .banner-item-01 {
 	padding: 300px 0px;
+<<<<<<< HEAD
 	background-image: url(../images/bg1.jpg);
+=======
+	background-image: url(../images/1.jpg);
+>>>>>>> dfa8384b09b264d545a2be51f361539dd755d631
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -330,7 +346,11 @@ header .navbar {
 
 .banner-item-02 {
 	padding: 300px 0px;
+<<<<<<< HEAD
 	background-image: url(../images/bg6.jpg);
+=======
+	background-image: url(../images/2.jpeg);
+>>>>>>> dfa8384b09b264d545a2be51f361539dd755d631
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -338,7 +358,11 @@ header .navbar {
 
 .banner-item-03 {
 	padding: 300px 0px;
+<<<<<<< HEAD
 	background-image: url(../images/bg16.jpg);
+=======
+	background-image: url(../images/3.jpeg);
+>>>>>>> dfa8384b09b264d545a2be51f361539dd755d631
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
