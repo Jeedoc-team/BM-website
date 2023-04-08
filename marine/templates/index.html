@@ -46,7 +46,7 @@ https://templatemo.com/tm-546-sixteen-clothing
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><h2>Bleu <em>Marine</em></h2></a>
+          <a class="navbar-brand" href="{% url 'home' %}"><h2>Bleu <em>Marine</em></h2></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -144,57 +144,56 @@ https://templatemo.com/tm-546-sixteen-clothing
         </div>
     </div>
 
-    <!-- <div class="best-features">
+    <div class="best-features">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>A propos de Bleu Marine</h2>
+              <h2>Leader de la région des savanes</h2>
             </div>
           </div>
           <div class="col-md-6">
             <div class="left-content">
-              <h4>Looking for the best products?</h4>
-              <p><a rel="nofollow" href="https://templatemo.com/tm-546-sixteen-clothing" target="_parent">This template</a> is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow" href="https://templatemo.com/contact">Contact us</a> for more info.</p>
+              <h4>Nos produits sont </h4>
+              <!-- <p><a rel="nofollow" href="" target="_parent">This template</a> is free to use for your business websites. However, you have no permission to redistribute the downloadable ZIP file on any template collection website. <a rel="nofollow" href="https://templatemo.com/contact">Contact us</a> for more info.</p> -->
               <ul class="featured-list">
-                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                <li><a href="#">Consectetur an adipisicing elit</a></li>
-                <li><a href="#">It aquecorporis nulla aspernatur</a></li>
-                <li><a href="#">Corporis, omnis doloremque</a></li>
-                <li><a href="#">Non cum id reprehenderit</a></li>
+                <li><a href="#">D'une qualité supérieur</a></li>
+                <li><a href="#">Très moins chèrs</a></li>
+                <li><a href="#">Disponible 6j/7 et 24h/24</a></li>
+                <li><a href="#">Restituable en cas de non satisfaction</a></li>
               </ul>
-              <a href="about.html" class="filled-button">Read More</a>
+              <!-- <a href="about.html" class="filled-button">Read More</a> -->
             </div>
           </div>
           <div class="col-md-6">
             <div class="right-image">
-              <img src="{% static 'assets/images/feature-image.jpg' %}" alt="">
+              <img src="{% static 'assets/images/5.jpeg' %}" alt="">
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
 
-    <!-- <div class="call-to-action">
+    <div class="call-to-action">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="inner-content">
               <div class="row">
                 <div class="col-md-8">
-                  <h4>Creative &amp; Unique <em>Sixteen</em> Products</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
+                  <h4>Votre Satisfaction Fais Notre Réputation</h4>
+                  <p>Faites un tour dans nos locaux et faites vous plaisir.</p>
                 </div>
                 <div class="col-md-4">
-                  <a href="#" class="filled-button">Acheter maintenant</a>
+                  <a href="{% url 'contact' %}" class="filled-button">Nous contacter</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     {% endblock %}
     <footer>
