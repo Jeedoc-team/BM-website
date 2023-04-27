@@ -5,7 +5,8 @@ from django.db import models
 CATEGORIE = (
     ("Eléctricité", "Eléctricité"),
     ("Plomberie", "Plomberie"),
-    ("Matériels et divers", "Matériels et divers")
+    ("Matériels et divers", "Matériels et divers"),
+    ("Peinture", "Peinture"),
 )
 
 

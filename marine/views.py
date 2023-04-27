@@ -14,6 +14,7 @@ def products(request):
     categorie_elec = Product.objects.all().filter(categorie="Eléctricité")
     categorie_plomb = Product.objects.all().filter(categorie="Plomberie")
     categorie_mat = Product.objects.all().filter(categorie="Matériels et divers")
+    categorie_peint = Product.objects.all().filter(categorie="Peinture")
     return render(request, "products.html", locals())
 
 
